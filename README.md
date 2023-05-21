@@ -1,14 +1,22 @@
-# Expo Router Example
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+# UNA
 
-## 🚀 How to use
+A Travel App to connect and make Travel easier and cheaper.
 
-```sh
-npx create-expo-app -e with-router
+
+## Installation
+
+Install UNA with npm
+
+```bash
+  npm install 
+  npx expo start
 ```
+    
+## Features
 
-## 📝 Notes
+- Setup a drive
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+## To do
+- find a ride
+
