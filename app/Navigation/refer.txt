@@ -1,35 +1,3 @@
-import * as React from 'react';
-import { View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import Drive from './Screens/Drive/Drive_index';
-import Home from './Screens/Home/Home_index';
-import UserProfileView from './Screens/User/User_index';
-import Ride from './Screens/Ride/Ride_index';
-import { NativeWindStyleSheet } from "nativewind";
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
-NativeWindStyleSheet.setOutput({
-  default: "native",
-});
-
-const Tab = createBottomTabNavigator();
-
-function Main() {
-  return (
-    <NavigationContainer independent={true}>
-      <Tab.Navigator>
-        <Tab.Screen name='Home' component={Home}/>
-        <Tab.Screen name='Ride' component={Ride}/>
-        <Tab.Screen name="Drive" component={Drive} />
-        <Tab.Screen name='Profile' component={UserProfileView} />
-      </Tab.Navigator>
-    </NavigationContainer>
-  );
-}
-
-export default Main;
-
 /*import * as React from 'react';
 import { Button, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';

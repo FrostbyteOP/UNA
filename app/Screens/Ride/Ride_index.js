@@ -2,25 +2,13 @@ import React from 'react';
 import { StyleSheet, Dimensions, ScrollView } from 'react-native';
 import { View, Text, Button, StatusBar } from 'react-native';
 
-export default Home = ({ navigation }) =>{
+export default Ride = ({ navigation }) =>{
 
   return(
     <View className="bg-neutral-500 dark:bg-slate-900">
     <Text className="font-red"> 
-    Home Screenrr
+    Ride
     </Text>
-    <Button className="mt-8 rounded"
-        title="Schedule a Drive"
-        onPress={() => navigation.navigate('Drive')}
-      />
-      <Button className="mt-8 rounded"
-        title="Profile"
-        onPress={() => navigation.navigate('Profile')}
-      />
-      <Button className="mt-8 rounded"
-      title="Ride"
-      onPress={() => navigation.navigate('Ride')}
-    />
     </View>
 )}
 
